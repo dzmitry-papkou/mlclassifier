@@ -1,0 +1,22 @@
+Model Evaluation Summary
+========================
+
+Model: KNN
+Dataset: data/iris_full.csv
+Timestamp: 20250923_073233
+
+Dataset Info:
+  Total Samples: 150
+  Features: 4
+  Classes: 3
+
+Performance Metrics:
+  Accuracy: 1.0000
+  Balanced Accuracy: 1.0000
+  Macro Precision: 1.0000
+  Macro Recall: 1.0000
+  Macro F1: 1.0000
+
+Cross-Validation (3-fold):
+  Mean Accuracy: 0.9667
+  Std Deviation: 0.0115

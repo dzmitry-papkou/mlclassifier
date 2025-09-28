@@ -1,0 +1,25 @@
+Algorithm,Parameters,Preprocessing,TrainTestSplit,Accuracy,Precision,Recall,F1Score,CVMean,CVStd
+KNN,map[distance:euclidean k:3],raw,80-20,0.7667,0.3333,0.2556,0.2893,0.9600,0.0249
+KNN,map[distance:euclidean k:5],raw,80-20,0.8000,0.3333,0.2667,0.2963,0.9733,0.0133
+KNN,map[distance:manhattan k:7],raw,80-20,0.8000,0.3333,0.2667,0.2963,0.9467,0.0340
+DecisionTree,map[max_depth:5 min_samples_split:2],raw,80-20,0.7667,0.3333,0.2556,0.2893,0.9400,0.0249
+DecisionTree,map[max_depth:10 min_samples_split:5],raw,80-20,0.7333,0.3333,0.2444,0.2821,0.9267,0.0490
+RandomForest,map[max_depth:5 min_samples_split:2 n_trees:10],raw,80-20,0.8000,0.3333,0.2667,0.2963,0.9533,0.0267
+RandomForest,map[max_depth:10 min_samples_split:2 n_trees:50],raw,80-20,0.7667,0.3333,0.2556,0.2893,0.9267,0.0327
+NaiveBayes,map[var_smoothing:1e-09],raw,80-20,0.9333,0.3333,0.3111,0.3218,0.9667,0.0211
+KNN,map[distance:euclidean k:3],normalized,80-20,0.8667,0.3333,0.2889,0.3095,0.9533,0.0340
+KNN,map[distance:euclidean k:5],normalized,80-20,0.8333,0.3333,0.2778,0.3030,0.9467,0.0267
+KNN,map[distance:manhattan k:7],normalized,80-20,0.8000,0.3333,0.2667,0.2963,0.9533,0.0499
+DecisionTree,map[max_depth:5 min_samples_split:2],normalized,80-20,0.7667,0.3333,0.2556,0.2893,0.9400,0.0389
+DecisionTree,map[max_depth:10 min_samples_split:5],normalized,80-20,0.7333,0.3333,0.2444,0.2821,0.9400,0.0249
+RandomForest,map[max_depth:5 min_samples_split:2 n_trees:10],normalized,80-20,0.8000,0.3333,0.2667,0.2963,0.9400,0.0249
+RandomForest,map[max_depth:10 min_samples_split:2 n_trees:50],normalized,80-20,0.7667,0.3333,0.2556,0.2893,0.9533,0.0267
+NaiveBayes,map[var_smoothing:1e-09],normalized,80-20,0.9333,0.3333,0.3111,0.3218,0.9467,0.0163
+KNN,map[distance:euclidean k:3],standardized,80-20,0.8000,0.3333,0.2667,0.2963,0.9467,0.0267
+KNN,map[distance:euclidean k:5],standardized,80-20,0.7667,0.3333,0.2556,0.2893,0.9533,0.0452
+KNN,map[distance:manhattan k:7],standardized,80-20,0.7667,0.3333,0.2556,0.2893,0.9467,0.0340
+DecisionTree,map[max_depth:5 min_samples_split:2],standardized,80-20,0.7667,0.3333,0.2556,0.2893,0.9133,0.0718
+DecisionTree,map[max_depth:10 min_samples_split:5],standardized,80-20,0.7333,0.3333,0.2444,0.2821,0.9267,0.0533
+RandomForest,map[max_depth:5 min_samples_split:2 n_trees:10],standardized,80-20,0.8333,0.3333,0.2778,0.3030,0.9400,0.0389
+RandomForest,map[max_depth:10 min_samples_split:2 n_trees:50],standardized,80-20,0.7667,0.3333,0.2556,0.2893,0.9400,0.0133
+NaiveBayes,map[var_smoothing:1e-09],standardized,80-20,0.9333,0.3333,0.3111,0.3218,0.9533,0.0340

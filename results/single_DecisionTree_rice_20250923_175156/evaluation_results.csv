@@ -1,0 +1,2 @@
+Model,Dataset,Preprocessing,TrainSize,TestSize,Accuracy,Precision,Recall,F1Score,BalancedAccuracy,CVMean,CVStd
+DecisionTree,rice,raw,3048,762,0.9042,0.9042,0.8996,0.9016,0.8996,0.9150,0.0104

@@ -1,0 +1,22 @@
+Model Evaluation Summary
+========================
+
+Model: NaiveBayes
+Dataset: data/iris_full.csv
+Timestamp: 20250923_070414
+
+Dataset Info:
+  Total Samples: 150
+  Features: 4
+  Classes: 3
+
+Performance Metrics:
+  Accuracy: 0.9000
+  Balanced Accuracy: 0.9000
+  Macro Precision: 0.9024
+  Macro Recall: 0.9000
+  Macro F1: 0.8997
+
+Cross-Validation (5-fold):
+  Mean Accuracy: 0.9467
+  Std Deviation: 0.0298

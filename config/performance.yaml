@@ -1,0 +1,39 @@
+performance:
+  parallel:
+    enabled: true
+    max_workers: 8
+    cv_parallel: true
+    forest_parallel: true
+  
+  memory:
+    streaming_threshold_mb: 100
+    batch_size: 1000
+    model_pool_enabled: true
+    cache_preprocessing: true
+    cache_size_mb: 512
+  
+  algorithms:
+    decision_tree:
+      enable_pruning: true
+      min_impurity_decrease: 0.01
+      max_leaf_nodes: -1
+    
+    random_forest:
+      parallel_trees: true
+      feature_sampling: "sqrt"
+      bootstrap: true
+      oob_score: false
+    
+    naive_bayes:
+      use_log_space: true
+      var_smoothing: 1e-9
+  
+  cross_validation:
+    parallel_folds: true
+    max_workers: 4
+    stratified: true
+    
+  data:
+    streaming_enabled: true
+    missing_value_strategy: "skip"  # or "impute"
+    auto_detect_label_column: true

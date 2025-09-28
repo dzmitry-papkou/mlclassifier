@@ -1,0 +1,14 @@
+Experiment Summary
+==================
+
+Timestamp: 20250923_063615
+Dataset: data/iris_complete.csv
+Total Samples: 150
+Features: 4
+Classes: 3
+
+Files Generated:
+1. experiment_results.csv - Main results with metrics
+2. evaluation_data.csv - Detailed predictions for each sample
+3. cv_folds.csv - Cross-validation fold assignments
+4. data_splits.csv - Train/test split details

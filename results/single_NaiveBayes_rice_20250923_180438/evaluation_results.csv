@@ -1,0 +1,2 @@
+Model,Dataset,Preprocessing,TrainSize,TestSize,Accuracy,Precision,Recall,F1Score,BalancedAccuracy,CVMean,CVStd
+NaiveBayes,rice,raw,3048,762,0.9121,0.9112,0.9088,0.9100,0.9088,0.9184,0.0132

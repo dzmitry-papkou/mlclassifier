@@ -1,0 +1,22 @@
+Model Evaluation Summary
+========================
+
+Model: DecisionTree
+Dataset: ./data/rice.csv
+Timestamp: 20250923_175156
+
+Dataset Info:
+  Total Samples: 3810
+  Features: 7
+  Classes: 2
+
+Performance Metrics:
+  Accuracy: 0.9042
+  Balanced Accuracy: 0.8996
+  Macro Precision: 0.9042
+  Macro Recall: 0.8996
+  Macro F1: 0.9016
+
+Cross-Validation (5-fold):
+  Mean Accuracy: 0.9150
+  Std Deviation: 0.0104

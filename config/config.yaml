@@ -1,0 +1,36 @@
+experiment:
+  preprocessing:
+    - raw
+    - normalized
+    - standardized
+  
+  train_test_splits:
+    - 0.7
+    - 0.8
+  
+  cross_validation:
+    folds: 5
+    
+  algorithms:
+    knn:
+      k: [3, 5, 7, 9]
+      distance: ["euclidean", "manhattan"]
+    
+    decision_tree:
+      max_depth: [3, 5, 7, 10]
+      min_samples_split: [2, 5]
+      
+    random_forest:
+      n_trees: [10, 50, 100]
+      max_depth: [5, 10]
+      
+    naive_bayes:
+      var_smoothing: [1e-9]
+
+commander:
+  prompt: "mlc>"
+  colors:
+    success: "green"
+    error: "red"
+    info: "cyan"
+    warning: "yellow"

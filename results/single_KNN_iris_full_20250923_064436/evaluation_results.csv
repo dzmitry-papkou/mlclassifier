@@ -1,0 +1,2 @@
+Model,Dataset,Preprocessing,TrainSize,TestSize,Accuracy,Precision,Recall,F1Score,BalancedAccuracy,CVMean,CVStd
+KNN,iris_full,preprocessed,120,30,0.9333,0.9444,0.9333,0.9327,0.9333,0.9500,0.0186
