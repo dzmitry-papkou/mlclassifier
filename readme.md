@@ -1,7 +1,5 @@
 # MLClassifier - Machine Learning Classification System
 
-## Homework 2 - Machine Learning Classification Algorithms Implementation
-
 This project implements and compares four classification algorithms with different data preprocessing methods and parameter optimization techniques for comprehensive machine learning model evaluation.
 
 ## Overview
